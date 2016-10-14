@@ -1,6 +1,6 @@
 $(function(){
 
-	var objFirebase = new Firebase("https://chatumng1.firebaseio.com/");
+	var objFirebase = new Firebase("https://serendepia-8634a.firebaseio.com");
 
 	$('#btnLoginTwitter').click(clickAutenticar);
 
