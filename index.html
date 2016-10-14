@@ -6,9 +6,23 @@
 	<title>Firebase Chat</title>
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
 	<link rel="stylesheet" href="CSS/login.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-	<script src="https://cdn.firebase.com/js/client/2.2.9/firebase.js"></script>
-	<script src="JS/login.js"></script>
+	<script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+    	<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+	<script src="https://www.gstatic.com/firebasejs/3.4.0/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/3.4.0/firebase-auth.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/3.4.0/firebase-database.js"></script>
+
+	<script>
+	  // Initialize Firebase
+	  var config = {
+	    apiKey: "AIzaSyAsMxwxAsI5sislbx4DiVhEfQgSBaHFar4",
+	    authDomain: "serendepia-8634a.firebaseapp.com",
+	    databaseURL: "https://serendepia-8634a.firebaseio.com",
+	    storageBucket: "",
+	    messagingSenderId: "661474835636"
+	  };
+	  firebase.initializeApp(config);
+	</script>
 </head>
 <body>
 	<header>
